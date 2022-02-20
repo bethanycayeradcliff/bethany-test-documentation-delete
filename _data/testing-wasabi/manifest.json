@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://bethanycayeradcliff.github.io/bethany-test-documentation-delete/testing-wasabi/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "testing-wasabi" ] },
+    "items": [
+      {
+        "id": "https://bethanycayeradcliff.github.io/bethany-test-documentation-delete/testing-wasabi/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 23.0,
+        "items": [
+          {
+            "id": "https://bethanycayeradcliff.github.io/bethany-test-documentation-delete/testing-wasabi/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://bethanycayeradcliff.github.io/bethany-test-documentation-delete/testing-wasabi/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://s3.us-central-1.wasabisys.com/audioannotate-test/Penn Sound - Maggie Nelson/Nelson-Maggie_207_MFA-Reading-Series_Boise-State-University_04-26-2013.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 23.0
+                },
+                "target": "https://bethanycayeradcliff.github.io/bethany-test-documentation-delete/testing-wasabi/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
